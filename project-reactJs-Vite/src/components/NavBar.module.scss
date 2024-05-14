@@ -10,59 +10,72 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-    background-color: black;
-    color: whitesmoke;
-    height: 3rem;
-    
-    .left { 
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin: 0 1rem;
-    
-      .paragraph{
-        font-size: 1.3rem;
-      }
-      
-      
-      .socialIco {
-        display: flex;
-    margin-right: 70rem;
-    margin-left: 1rem;
-
-        .icons {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          cursor: pointer;
-          color: whitesmoke;
-          border-radius: 50%;
-          font-size: 1.5rem;
-          margin-right: 0.3rem;
-          transition: font-size 0.3s;
-          &:hover{
-            transform: translateY(2px);
-          } 
-        }
-      }
+  background-color: black;
+  color: whitesmoke;
+  height: 3rem;
+  
+  .left { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 1rem;
+  
+    .paragraph {
+      font-size: 1.3rem;
     }
-
-    .right{
-      display: flex;
-      font-size: 15px;
-      font-weight: bold;
-      margin-left: -20rem;
     
-.buttonStyle{
-  color: white;
-  margin: 4rem 2rem;
-  transition: font-size 0.3s;
-  &:hover{
-    transform: translateY(2px);
-  } 
-}
+    .socialIco {
+      display: flex;
+      margin-right: 70rem;
+      margin-left: 1rem;
 
-
+      .icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        color: whitesmoke;
+        border-radius: 50%;
+        font-size: 1.5rem;
+        margin-right: 0.3rem;
+        transition: font-size 0.3s;
+        &:hover {
+          transform: translateY(2px);
+        } 
+      }
     }
   }
-  
+
+  .right {
+    display: flex;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: -20rem;
+    padding: 6rem;
+
+    .iconButtonGroup {
+      display: flex;
+      align-items: center;
+      margin-right: 2rem;
+
+      .homeIcon,
+      .accountCircle {
+        font-size: 2rem;
+        color: whitesmoke;
+        margin-bottom: 0; // Eliminăm marginile verticale/
+
+        
+      }
+
+      .buttonStyle {
+        color: white;
+        font-size: 1rem;
+        font-weight: bold;
+        transition: font-size 0.3s;
+        &:hover {
+          transform: translateY(2px);
+        } 
+      }
+    }
+  }
+}

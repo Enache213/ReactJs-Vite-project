@@ -5,9 +5,10 @@ import styles from './StartingPage.module.scss'
 
 function StartingPage() {
   return (
-    <div className="startingPage">
-      <LeftSide />
-      <RightSide />
+    <div className={styles.startingPage}>
+    <aside><LeftSide /></aside>  
+
+      <aside><RightSide /></aside>
       <NewsFeed />
     </div>
   );

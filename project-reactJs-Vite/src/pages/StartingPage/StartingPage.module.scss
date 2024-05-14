@@ -1,31 +1,32 @@
-.startingPage {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 3rem;
+// .startingPage {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     gap: 3rem;
+    
    
-    .leftSide,
-    .rightSide {
-        width: 20rem;
-        background-color: lightgray;
-        height: 100vh;
-        padding: 20px;
-        overflow-y: auto;
-        position: fixed;
-        top: 0;
-    }
+//     .leftSide,
+//     .rightSide {
+//         width: 20rem;
+//         background-color: lightgray;
+//         height: 100vh;
+//         padding: 20px;
+//         overflow-y: auto;
+//         position: fixed;
+//         top: 0;
+//     }
 
-    .leftSide {
-        background-color: red;
-        left: 0;
-        width: 23%;
+//     .leftSide {
+//         background-color: red;
+//         left: 0;
+//         width: 23%;
         
-    }
+//     }
 
-    .rightSide {
-        background-color: red;
-        right: 0;
-        width: 23%;
+//     .rightSide {
+//         background-color: red;
+//         right: 0;
+//         width: 23%;
         
-    }
-}
+//     }
+// }
