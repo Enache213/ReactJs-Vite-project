@@ -1,0 +1,38 @@
+.Footer {
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 1.2rem;
+    position: absolute; 
+    width: 100%; 
+    background-color: black;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    
+    .FooterCon { 
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0 1rem;
+      
+      .socialIco {
+        display: flex;
+  
+        :hover {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+  
+        .icons {
+          margin-right: 0.4rem;
+          cursor: pointer;
+          color: whitesmoke;
+          border-radius: 50%;
+          font-size: 1.8rem;
+        
+        }
+      }
+    }
+  }
+  
